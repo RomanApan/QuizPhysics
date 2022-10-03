@@ -1,0 +1,41 @@
+{
+    "meh":
+    [
+        {
+            "title": "Кинематика",
+            "description": "kinematika"
+            },
+        {
+            "title": "Динамика",
+            "description": "dynamics"
+            },
+        {
+            "title": "Статика",
+            "description": "statika"
+            },
+        {
+            "title": "Колебания",
+            "description": "kolebanija"
+            },
+        {
+            "title": "Ток",
+            "description": "tok"
+            },
+        {
+            "title": "Магнитные явления",
+            "description": "magn"
+            },
+        {
+            "title": "Электростатика",
+            "description": "elektrostatika"
+            },
+        {
+            "title": "Оптика",
+            "description": "optika"
+            },
+        {
+            "title": "Тепловые явления",
+            "description": "tepl"
+            }
+    ]
+}

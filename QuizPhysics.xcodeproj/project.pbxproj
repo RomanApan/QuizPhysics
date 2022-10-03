@@ -9,21 +9,115 @@
 /* Begin PBXBuildFile section */
 		4D408FB928EA26C800473C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FB828EA26C800473C83 /* AppDelegate.swift */; };
 		4D408FBB28EA26C800473C83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FBA28EA26C800473C83 /* SceneDelegate.swift */; };
-		4D408FBD28EA26C800473C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FBC28EA26C800473C83 /* ViewController.swift */; };
-		4D408FC028EA26C800473C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D408FBE28EA26C800473C83 /* Main.storyboard */; };
 		4D408FC228EA26C900473C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D408FC128EA26C900473C83 /* Assets.xcassets */; };
 		4D408FC528EA26C900473C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D408FC328EA26C900473C83 /* LaunchScreen.storyboard */; };
+		4D408FD228EA279400473C83 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FD128EA279400473C83 /* MainTabBarController.swift */; };
+		4D408FD728EA27E400473C83 /* AbstractTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FD628EA27E400473C83 /* AbstractTableViewController.swift */; };
+		4D408FD928EA27F100473C83 /* AbstractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FD828EA27F100473C83 /* AbstractViewController.swift */; };
+		4D408FDB28EA281100473C83 /* VideoLessCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FDA28EA281100473C83 /* VideoLessCollectionViewController.swift */; };
+		4D408FDD28EA281D00473C83 /* VideoLessTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FDC28EA281D00473C83 /* VideoLessTableView.swift */; };
+		4D408FDF28EA282B00473C83 /* VideoLessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FDE28EA282B00473C83 /* VideoLessViewController.swift */; };
+		4D408FE128EA283900473C83 /* VideoLessTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FE028EA283900473C83 /* VideoLessTestView.swift */; };
+		4D408FE328EA284300473C83 /* VideoLessLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FE228EA284300473C83 /* VideoLessLabView.swift */; };
+		4D408FE528EA285200473C83 /* VideoLessTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FE428EA285200473C83 /* VideoLessTaskView.swift */; };
+		4D408FE728EA285C00473C83 /* VideoLessConspectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FE628EA285C00473C83 /* VideoLessConspectView.swift */; };
+		4D408FE928EA286700473C83 /* VideoScientistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FE828EA286700473C83 /* VideoScientistViewController.swift */; };
+		4D408FEB28EA287500473C83 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FEA28EA287500473C83 /* QuizTableViewController.swift */; };
+		4D408FED28EA288000473C83 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FEC28EA288000473C83 /* QuizViewController.swift */; };
+		4D408FF028EA28AE00473C83 /* AbstractTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FEF28EA28AE00473C83 /* AbstractTableViewCell.swift */; };
+		4D408FF228EA28B800473C83 /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FF128EA28B800473C83 /* QuizTableViewCell.swift */; };
+		4D408FF428EA28C300473C83 /* VideoLessCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FF328EA28C300473C83 /* VideoLessCollectionCell.swift */; };
+		4D408FF628EA28D300473C83 /* VideoLessTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FF528EA28D300473C83 /* VideoLessTableCell.swift */; };
+		4D408FF828EA28E100473C83 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FF728EA28E100473C83 /* QuizModel.swift */; };
+		4D408FFA28EA28F100473C83 /* VideoLessTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FF928EA28F100473C83 /* VideoLessTestModel.swift */; };
+		4D408FFC28EA28FA00473C83 /* VideoLessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FFB28EA28FA00473C83 /* VideoLessModel.swift */; };
+		4D408FFE28EA290300473C83 /* VideoLessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D408FFD28EA290300473C83 /* VideoLessService.swift */; };
+		4D40900128EA30B600473C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900028EA30B600473C83 /* Main.storyboard */; };
+		4D40901F28EA310500473C83 /* dataVideoFizikaTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900228EA310500473C83 /* dataVideoFizikaTest.json */; };
+		4D40902028EA310500473C83 /* optika.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900428EA310500473C83 /* optika.pdf */; };
+		4D40902128EA310500473C83 /* kinematika.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900528EA310500473C83 /* kinematika.pdf */; };
+		4D40902228EA310500473C83 /* tok.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900628EA310500473C83 /* tok.pdf */; };
+		4D40902328EA310500473C83 /* dynamics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900728EA310500473C83 /* dynamics.pdf */; };
+		4D40902428EA310500473C83 /* tepl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900828EA310500473C83 /* tepl.pdf */; };
+		4D40902528EA310500473C83 /* elektrostatika.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900928EA310500473C83 /* elektrostatika.pdf */; };
+		4D40902628EA310500473C83 /* statika.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900A28EA310500473C83 /* statika.pdf */; };
+		4D40902728EA310500473C83 /* kolebanija.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900B28EA310500473C83 /* kolebanija.pdf */; };
+		4D40902828EA310500473C83 /* magn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900C28EA310500473C83 /* magn.pdf */; };
+		4D40902928EA310500473C83 /* конспект к Давление твердых тел на поверхность. Сила давления-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900E28EA310500473C83 /* конспект к Давление твердых тел на поверхность. Сила давления-cropped.pdf */; };
+		4D40902A28EA310500473C83 /* конспект к Давление жидкостей и газов. Закон Паскаля-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40900F28EA310500473C83 /* конспект к Давление жидкостей и газов. Закон Паскаля-cropped.pdf */; };
+		4D40902B28EA310500473C83 /* задачи к Давление твердых тел на поверхность. Сила давления-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901028EA310500473C83 /* задачи к Давление твердых тел на поверхность. Сила давления-cropped.pdf */; };
+		4D40902C28EA310500473C83 /* конспект к жидкостный насос-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901128EA310500473C83 /* конспект к жидкостный насос-cropped.pdf */; };
+		4D40902D28EA310500473C83 /* задачи к Давление жидкостей и газов. Закон Паскаля-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901228EA310500473C83 /* задачи к Давление жидкостей и газов. Закон Паскаля-cropped.pdf */; };
+		4D40902E28EA310500473C83 /* Задачи к закону архимеда-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901328EA310500473C83 /* Задачи к закону архимеда-cropped.pdf */; };
+		4D40902F28EA310500473C83 /* лабораторная работа к Закона Архимеда-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901428EA310500473C83 /* лабораторная работа к Закона Архимеда-cropped.pdf */; };
+		4D40903028EA310500473C83 /* конспект к Закон Архимеда-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901528EA310500473C83 /* конспект к Закон Архимеда-cropped.pdf */; };
+		4D40903128EA310500473C83 /* Лабораторная работа к приложению.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901628EA310500473C83 /* Лабораторная работа к приложению.pdf */; };
+		4D40903228EA310500473C83 /* задачи к Жидкостной насос-cropped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901728EA310500473C83 /* задачи к Жидкостной насос-cropped.pdf */; };
+		4D40903328EA310500473C83 /* dataVideoFizika.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901828EA310500473C83 /* dataVideoFizika.json */; };
+		4D40903428EA310500473C83 /* dataVideoFizikaTestPaskal.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901928EA310500473C83 /* dataVideoFizikaTestPaskal.json */; };
+		4D40903528EA310500473C83 /* dataAbstract.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901A28EA310500473C83 /* dataAbstract.json */; };
+		4D40903628EA310500473C83 /* dataDemo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901B28EA310500473C83 /* dataDemo.json */; };
+		4D40903728EA310500473C83 /* dataVideoFizikaTestArchimed.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901C28EA310500473C83 /* dataVideoFizikaTestArchimed.json */; };
+		4D40903828EA310500473C83 /* dataQuiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901D28EA310500473C83 /* dataQuiz.json */; };
+		4D40903928EA310500473C83 /* dataVideoFizikaTestNasos.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D40901E28EA310500473C83 /* dataVideoFizikaTestNasos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D408FB528EA26C800473C83 /* QuizPhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizPhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D408FB828EA26C800473C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D408FBA28EA26C800473C83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D408FBC28EA26C800473C83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D408FBF28EA26C800473C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D408FC128EA26C900473C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D408FC428EA26C900473C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D408FC628EA26C900473C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D408FD128EA279400473C83 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4D408FD628EA27E400473C83 /* AbstractTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractTableViewController.swift; sourceTree = "<group>"; };
+		4D408FD828EA27F100473C83 /* AbstractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractViewController.swift; sourceTree = "<group>"; };
+		4D408FDA28EA281100473C83 /* VideoLessCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessCollectionViewController.swift; sourceTree = "<group>"; };
+		4D408FDC28EA281D00473C83 /* VideoLessTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessTableView.swift; sourceTree = "<group>"; };
+		4D408FDE28EA282B00473C83 /* VideoLessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessViewController.swift; sourceTree = "<group>"; };
+		4D408FE028EA283900473C83 /* VideoLessTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessTestView.swift; sourceTree = "<group>"; };
+		4D408FE228EA284300473C83 /* VideoLessLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessLabView.swift; sourceTree = "<group>"; };
+		4D408FE428EA285200473C83 /* VideoLessTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessTaskView.swift; sourceTree = "<group>"; };
+		4D408FE628EA285C00473C83 /* VideoLessConspectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessConspectView.swift; sourceTree = "<group>"; };
+		4D408FE828EA286700473C83 /* VideoScientistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScientistViewController.swift; sourceTree = "<group>"; };
+		4D408FEA28EA287500473C83 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
+		4D408FEC28EA288000473C83 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		4D408FEF28EA28AE00473C83 /* AbstractTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractTableViewCell.swift; sourceTree = "<group>"; };
+		4D408FF128EA28B800473C83 /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
+		4D408FF328EA28C300473C83 /* VideoLessCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessCollectionCell.swift; sourceTree = "<group>"; };
+		4D408FF528EA28D300473C83 /* VideoLessTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessTableCell.swift; sourceTree = "<group>"; };
+		4D408FF728EA28E100473C83 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		4D408FF928EA28F100473C83 /* VideoLessTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessTestModel.swift; sourceTree = "<group>"; };
+		4D408FFB28EA28FA00473C83 /* VideoLessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessModel.swift; sourceTree = "<group>"; };
+		4D408FFD28EA290300473C83 /* VideoLessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLessService.swift; sourceTree = "<group>"; };
+		4D40900028EA30B600473C83 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D40900228EA310500473C83 /* dataVideoFizikaTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataVideoFizikaTest.json; sourceTree = "<group>"; };
+		4D40900428EA310500473C83 /* optika.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = optika.pdf; sourceTree = "<group>"; };
+		4D40900528EA310500473C83 /* kinematika.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = kinematika.pdf; sourceTree = "<group>"; };
+		4D40900628EA310500473C83 /* tok.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tok.pdf; sourceTree = "<group>"; };
+		4D40900728EA310500473C83 /* dynamics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dynamics.pdf; sourceTree = "<group>"; };
+		4D40900828EA310500473C83 /* tepl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tepl.pdf; sourceTree = "<group>"; };
+		4D40900928EA310500473C83 /* elektrostatika.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = elektrostatika.pdf; sourceTree = "<group>"; };
+		4D40900A28EA310500473C83 /* statika.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = statika.pdf; sourceTree = "<group>"; };
+		4D40900B28EA310500473C83 /* kolebanija.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = kolebanija.pdf; sourceTree = "<group>"; };
+		4D40900C28EA310500473C83 /* magn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = magn.pdf; sourceTree = "<group>"; };
+		4D40900E28EA310500473C83 /* конспект к Давление твердых тел на поверхность. Сила давления-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "конспект к Давление твердых тел на поверхность. Сила давления-cropped.pdf"; sourceTree = "<group>"; };
+		4D40900F28EA310500473C83 /* конспект к Давление жидкостей и газов. Закон Паскаля-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "конспект к Давление жидкостей и газов. Закон Паскаля-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901028EA310500473C83 /* задачи к Давление твердых тел на поверхность. Сила давления-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "задачи к Давление твердых тел на поверхность. Сила давления-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901128EA310500473C83 /* конспект к жидкостный насос-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "конспект к жидкостный насос-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901228EA310500473C83 /* задачи к Давление жидкостей и газов. Закон Паскаля-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "задачи к Давление жидкостей и газов. Закон Паскаля-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901328EA310500473C83 /* Задачи к закону архимеда-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Задачи к закону архимеда-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901428EA310500473C83 /* лабораторная работа к Закона Архимеда-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "лабораторная работа к Закона Архимеда-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901528EA310500473C83 /* конспект к Закон Архимеда-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "конспект к Закон Архимеда-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901628EA310500473C83 /* Лабораторная работа к приложению.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Лабораторная работа к приложению.pdf"; sourceTree = "<group>"; };
+		4D40901728EA310500473C83 /* задачи к Жидкостной насос-cropped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "задачи к Жидкостной насос-cropped.pdf"; sourceTree = "<group>"; };
+		4D40901828EA310500473C83 /* dataVideoFizika.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataVideoFizika.json; sourceTree = "<group>"; };
+		4D40901928EA310500473C83 /* dataVideoFizikaTestPaskal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataVideoFizikaTestPaskal.json; sourceTree = "<group>"; };
+		4D40901A28EA310500473C83 /* dataAbstract.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataAbstract.json; sourceTree = "<group>"; };
+		4D40901B28EA310500473C83 /* dataDemo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataDemo.json; sourceTree = "<group>"; };
+		4D40901C28EA310500473C83 /* dataVideoFizikaTestArchimed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataVideoFizikaTestArchimed.json; sourceTree = "<group>"; };
+		4D40901D28EA310500473C83 /* dataQuiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataQuiz.json; sourceTree = "<group>"; };
+		4D40901E28EA310500473C83 /* dataVideoFizikaTestNasos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataVideoFizikaTestNasos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +150,150 @@
 		4D408FB728EA26C800473C83 /* QuizPhysics */ = {
 			isa = PBXGroup;
 			children = (
-				4D408FB828EA26C800473C83 /* AppDelegate.swift */,
-				4D408FBA28EA26C800473C83 /* SceneDelegate.swift */,
-				4D408FBC28EA26C800473C83 /* ViewController.swift */,
-				4D408FBE28EA26C800473C83 /* Main.storyboard */,
-				4D408FC128EA26C900473C83 /* Assets.xcassets */,
-				4D408FC328EA26C900473C83 /* LaunchScreen.storyboard */,
-				4D408FC628EA26C900473C83 /* Info.plist */,
+				4D408FD028EA274A00473C83 /* Application */,
+				4D408FCC28EA270100473C83 /* Controllers */,
+				4D408FCD28EA270800473C83 /* Models */,
+				4D408FCE28EA271700473C83 /* Resources */,
+				4D408FCF28EA272600473C83 /* Data */,
 			);
 			path = QuizPhysics;
+			sourceTree = "<group>";
+		};
+		4D408FCC28EA270100473C83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FD128EA279400473C83 /* MainTabBarController.swift */,
+				4D408FD328EA27A000473C83 /* AbstractView */,
+				4D408FD428EA27AE00473C83 /* VideoView */,
+				4D408FD528EA27C200473C83 /* QuizView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D408FCD28EA270800473C83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FEE28EA289700473C83 /* Cell */,
+				4D408FF728EA28E100473C83 /* QuizModel.swift */,
+				4D408FF928EA28F100473C83 /* VideoLessTestModel.swift */,
+				4D408FFB28EA28FA00473C83 /* VideoLessModel.swift */,
+				4D408FFD28EA290300473C83 /* VideoLessService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D408FCE28EA271700473C83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FC128EA26C900473C83 /* Assets.xcassets */,
+				4D408FC328EA26C900473C83 /* LaunchScreen.storyboard */,
+				4D40900028EA30B600473C83 /* Main.storyboard */,
+				4D408FC628EA26C900473C83 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D408FCF28EA272600473C83 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D40901A28EA310500473C83 /* dataAbstract.json */,
+				4D40901B28EA310500473C83 /* dataDemo.json */,
+				4D40901D28EA310500473C83 /* dataQuiz.json */,
+				4D40901828EA310500473C83 /* dataVideoFizika.json */,
+				4D40900228EA310500473C83 /* dataVideoFizikaTest.json */,
+				4D40901C28EA310500473C83 /* dataVideoFizikaTestArchimed.json */,
+				4D40901E28EA310500473C83 /* dataVideoFizikaTestNasos.json */,
+				4D40901928EA310500473C83 /* dataVideoFizikaTestPaskal.json */,
+				4D40900328EA310500473C83 /* pdfForAbstractView */,
+				4D40900D28EA310500473C83 /* pdfForVideoLessView */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4D408FD028EA274A00473C83 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FB828EA26C800473C83 /* AppDelegate.swift */,
+				4D408FBA28EA26C800473C83 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D408FD328EA27A000473C83 /* AbstractView */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FD628EA27E400473C83 /* AbstractTableViewController.swift */,
+				4D408FD828EA27F100473C83 /* AbstractViewController.swift */,
+			);
+			path = AbstractView;
+			sourceTree = "<group>";
+		};
+		4D408FD428EA27AE00473C83 /* VideoView */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FDA28EA281100473C83 /* VideoLessCollectionViewController.swift */,
+				4D408FDC28EA281D00473C83 /* VideoLessTableView.swift */,
+				4D408FDE28EA282B00473C83 /* VideoLessViewController.swift */,
+				4D408FE028EA283900473C83 /* VideoLessTestView.swift */,
+				4D408FE228EA284300473C83 /* VideoLessLabView.swift */,
+				4D408FE428EA285200473C83 /* VideoLessTaskView.swift */,
+				4D408FE628EA285C00473C83 /* VideoLessConspectView.swift */,
+				4D408FE828EA286700473C83 /* VideoScientistViewController.swift */,
+			);
+			path = VideoView;
+			sourceTree = "<group>";
+		};
+		4D408FD528EA27C200473C83 /* QuizView */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FEA28EA287500473C83 /* QuizTableViewController.swift */,
+				4D408FEC28EA288000473C83 /* QuizViewController.swift */,
+			);
+			path = QuizView;
+			sourceTree = "<group>";
+		};
+		4D408FEE28EA289700473C83 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D408FEF28EA28AE00473C83 /* AbstractTableViewCell.swift */,
+				4D408FF128EA28B800473C83 /* QuizTableViewCell.swift */,
+				4D408FF328EA28C300473C83 /* VideoLessCollectionCell.swift */,
+				4D408FF528EA28D300473C83 /* VideoLessTableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4D40900328EA310500473C83 /* pdfForAbstractView */ = {
+			isa = PBXGroup;
+			children = (
+				4D40900428EA310500473C83 /* optika.pdf */,
+				4D40900528EA310500473C83 /* kinematika.pdf */,
+				4D40900628EA310500473C83 /* tok.pdf */,
+				4D40900728EA310500473C83 /* dynamics.pdf */,
+				4D40900828EA310500473C83 /* tepl.pdf */,
+				4D40900928EA310500473C83 /* elektrostatika.pdf */,
+				4D40900A28EA310500473C83 /* statika.pdf */,
+				4D40900B28EA310500473C83 /* kolebanija.pdf */,
+				4D40900C28EA310500473C83 /* magn.pdf */,
+			);
+			path = pdfForAbstractView;
+			sourceTree = "<group>";
+		};
+		4D40900D28EA310500473C83 /* pdfForVideoLessView */ = {
+			isa = PBXGroup;
+			children = (
+				4D40900E28EA310500473C83 /* конспект к Давление твердых тел на поверхность. Сила давления-cropped.pdf */,
+				4D40900F28EA310500473C83 /* конспект к Давление жидкостей и газов. Закон Паскаля-cropped.pdf */,
+				4D40901028EA310500473C83 /* задачи к Давление твердых тел на поверхность. Сила давления-cropped.pdf */,
+				4D40901128EA310500473C83 /* конспект к жидкостный насос-cropped.pdf */,
+				4D40901228EA310500473C83 /* задачи к Давление жидкостей и газов. Закон Паскаля-cropped.pdf */,
+				4D40901328EA310500473C83 /* Задачи к закону архимеда-cropped.pdf */,
+				4D40901428EA310500473C83 /* лабораторная работа к Закона Архимеда-cropped.pdf */,
+				4D40901528EA310500473C83 /* конспект к Закон Архимеда-cropped.pdf */,
+				4D40901628EA310500473C83 /* Лабораторная работа к приложению.pdf */,
+				4D40901728EA310500473C83 /* задачи к Жидкостной насос-cropped.pdf */,
+			);
+			path = pdfForVideoLessView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +354,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D40900128EA30B600473C83 /* Main.storyboard in Resources */,
+				4D40902828EA310500473C83 /* magn.pdf in Resources */,
+				4D40903628EA310500473C83 /* dataDemo.json in Resources */,
+				4D40903828EA310500473C83 /* dataQuiz.json in Resources */,
 				4D408FC528EA26C900473C83 /* LaunchScreen.storyboard in Resources */,
+				4D40903728EA310500473C83 /* dataVideoFizikaTestArchimed.json in Resources */,
+				4D40903428EA310500473C83 /* dataVideoFizikaTestPaskal.json in Resources */,
 				4D408FC228EA26C900473C83 /* Assets.xcassets in Resources */,
-				4D408FC028EA26C800473C83 /* Main.storyboard in Resources */,
+				4D40903528EA310500473C83 /* dataAbstract.json in Resources */,
+				4D40902228EA310500473C83 /* tok.pdf in Resources */,
+				4D40902328EA310500473C83 /* dynamics.pdf in Resources */,
+				4D40902928EA310500473C83 /* конспект к Давление твердых тел на поверхность. Сила давления-cropped.pdf in Resources */,
+				4D40902528EA310500473C83 /* elektrostatika.pdf in Resources */,
+				4D40902B28EA310500473C83 /* задачи к Давление твердых тел на поверхность. Сила давления-cropped.pdf in Resources */,
+				4D40903928EA310500473C83 /* dataVideoFizikaTestNasos.json in Resources */,
+				4D40902728EA310500473C83 /* kolebanija.pdf in Resources */,
+				4D40902C28EA310500473C83 /* конспект к жидкостный насос-cropped.pdf in Resources */,
+				4D40902A28EA310500473C83 /* конспект к Давление жидкостей и газов. Закон Паскаля-cropped.pdf in Resources */,
+				4D40901F28EA310500473C83 /* dataVideoFizikaTest.json in Resources */,
+				4D40903128EA310500473C83 /* Лабораторная работа к приложению.pdf in Resources */,
+				4D40902D28EA310500473C83 /* задачи к Давление жидкостей и газов. Закон Паскаля-cropped.pdf in Resources */,
+				4D40903028EA310500473C83 /* конспект к Закон Архимеда-cropped.pdf in Resources */,
+				4D40903228EA310500473C83 /* задачи к Жидкостной насос-cropped.pdf in Resources */,
+				4D40902F28EA310500473C83 /* лабораторная работа к Закона Архимеда-cropped.pdf in Resources */,
+				4D40902128EA310500473C83 /* kinematika.pdf in Resources */,
+				4D40903328EA310500473C83 /* dataVideoFizika.json in Resources */,
+				4D40902028EA310500473C83 /* optika.pdf in Resources */,
+				4D40902428EA310500473C83 /* tepl.pdf in Resources */,
+				4D40902628EA310500473C83 /* statika.pdf in Resources */,
+				4D40902E28EA310500473C83 /* Задачи к закону архимеда-cropped.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +394,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D408FBD28EA26C800473C83 /* ViewController.swift in Sources */,
 				4D408FB928EA26C800473C83 /* AppDelegate.swift in Sources */,
+				4D408FE528EA285200473C83 /* VideoLessTaskView.swift in Sources */,
+				4D408FE328EA284300473C83 /* VideoLessLabView.swift in Sources */,
+				4D408FD228EA279400473C83 /* MainTabBarController.swift in Sources */,
+				4D408FE128EA283900473C83 /* VideoLessTestView.swift in Sources */,
+				4D408FE728EA285C00473C83 /* VideoLessConspectView.swift in Sources */,
+				4D408FF028EA28AE00473C83 /* AbstractTableViewCell.swift in Sources */,
+				4D408FFE28EA290300473C83 /* VideoLessService.swift in Sources */,
+				4D408FF228EA28B800473C83 /* QuizTableViewCell.swift in Sources */,
+				4D408FF628EA28D300473C83 /* VideoLessTableCell.swift in Sources */,
+				4D408FE928EA286700473C83 /* VideoScientistViewController.swift in Sources */,
+				4D408FDF28EA282B00473C83 /* VideoLessViewController.swift in Sources */,
+				4D408FFA28EA28F100473C83 /* VideoLessTestModel.swift in Sources */,
 				4D408FBB28EA26C800473C83 /* SceneDelegate.swift in Sources */,
+				4D408FDD28EA281D00473C83 /* VideoLessTableView.swift in Sources */,
+				4D408FED28EA288000473C83 /* QuizViewController.swift in Sources */,
+				4D408FD928EA27F100473C83 /* AbstractViewController.swift in Sources */,
+				4D408FF428EA28C300473C83 /* VideoLessCollectionCell.swift in Sources */,
+				4D408FDB28EA281100473C83 /* VideoLessCollectionViewController.swift in Sources */,
+				4D408FD728EA27E400473C83 /* AbstractTableViewController.swift in Sources */,
+				4D408FF828EA28E100473C83 /* QuizModel.swift in Sources */,
+				4D408FEB28EA287500473C83 /* QuizTableViewController.swift in Sources */,
+				4D408FFC28EA28FA00473C83 /* VideoLessModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D408FBE28EA26C800473C83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D408FBF28EA26C800473C83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D408FC328EA26C900473C83 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +557,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AF9W25XMD8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QuizPhysics/Info.plist;
+				INFOPLIST_FILE = QuizPhysics/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +569,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Home.QuizPhysics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +587,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AF9W25XMD8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QuizPhysics/Info.plist;
+				INFOPLIST_FILE = QuizPhysics/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +599,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Home.QuizPhysics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
